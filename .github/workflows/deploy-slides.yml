@@ -16,6 +16,9 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -29,7 +32,7 @@ jobs:
         run: marp slides.md -o dist/index.html --html false
 
       - name: Build PDF
-        run: marp slides.md -o dist/slides.pdf --html false --pdf
+        run: marp slides.md -o dist/slides.pdf --html false --pdf --allow-local-files
 
       - name: Copy assets to dist
         run: |
