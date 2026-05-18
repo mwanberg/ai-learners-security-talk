@@ -30,25 +30,18 @@ npx @marp-team/marp-cli slides.md --pdf
 
 ## Resources from the talk
 
-- Randy Fay's DDEV container notes (presented during this talk):
-  https://rfay.github.io/ai-security-notes/
-- Anthropic devcontainer docs:
-  https://code.claude.com/docs/en/devcontainer
-- FreelyGive/ddev-claude-code:
-  https://github.com/FreelyGive/ddev-claude-code
-- makraz/ddev-claude:
-  https://github.com/makraz/ddev-claude
-
 ### Frameworks & Concepts
 
 - Fabian Franz, "Three S's":
   https://www.tag1.com/blog/how-to-think-about-ai-agent-security/
-- Fabian Franz, follow-up article "Structure is Freedom":
+  - Follow-up article "Structure is Freedom":
   https://www.tag1.com/blog/structure-is-freedom-ai-agent-security/
 - IBM AI agent security videos:
   https://www.youtube.com/watch?v=UMYtqHptYvA
 - OWASP GenAI Security Project:
   https://genai.owasp.org/
+- Randy Fay's DDEV container notes (presented during this talk):
+  https://rfay.github.io/ai-security-notes/
 
 ### Tools & Setup
 
